@@ -1,0 +1,192 @@
+/* RESET */
+*{
+    margin: 0;
+    box-sizing: 0;
+    color: white;
+    font-family: 'Kalam', cursive;
+}
+body{
+    background-color: black;
+}
+h4{
+    font-size: 2rem;
+    text-align: center;
+    color: #F0BA3E;
+    margin-top: -7rem;
+    margin-bottom: 2rem;
+}
+p{
+    color: #6A9CFF;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    max-width: 286px;
+}
+/* Tamaño de alto de cada seccion */
+#hero, #lanzamientos, #categorias, #proximamente, #merchandise, #contacto{
+    height: calc(100vh + 15rem);
+}
+/* HEADER */
+nav{
+    display: flex;
+}
+.miLogo{
+    width: 100px;
+    display: inline-block;
+}
+a{
+    text-decoration:none;
+}
+ul{
+    display: flex;
+    justify-content: end; /* justifica el menu de navegacion a la derecha */
+}
+li{
+    list-style: none;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+/* HERO */
+#hero{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.609)),  url("../fondoSecciones/hero_image.png");
+    background-attachment: fixed;
+    background-position: top;
+}
+h1{
+    text-align: center;
+    font-size: 16rem;
+    padding-top: 34vh;
+    color: black;
+    max-height: 20rem;
+}
+.primeraLetraAzul{
+    color: #2A5FC6;
+}
+h2{
+    text-align: center;
+    font-size: 4.6rem;
+}
+/* BODY */
+.tituloSeccion{
+    text-align: center;
+    padding-top: 9.3rem;
+    margin-bottom: 11.3rem;
+    font-size: 4rem;
+    font-family: 'Stardos Stencil';
+    color:#F0BA3E;
+}
+/* SECCION LANZAMIENTOS */
+#lanzamientos{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),  url("../fondoSecciones/fondo_lanzamientos.jpg");
+    background-size: cover;
+}
+.lanzamientos__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.lanzamientosImages{
+    width: 100%;
+    height: 370px;
+}
+.containerArticulo--image{
+    height: 100%;
+    border-radius:14px;
+    justify-content: space-around;
+    border: black solid 5px;
+}
+/* SECTION CATEGORIAS */
+#categorias{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),  url("../fondoSecciones/fondo_categorias.png");
+    background-size: cover;
+}
+/* SECTION PROXIMAMENTE */
+#proximamente{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),  url("../fondoSecciones/fondo_proximamente.jpg");
+    background-size: cover;
+}
+.proximamente__container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+.proximamente__container--articulo img{
+    width: auto;
+    height: 370px;
+    border-radius: 10px;
+}
+/* SECTION MERCHANDISE*/
+.merchandise__container{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.merchandise__container--image{
+    width: auto;
+    height: 165px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border: #F0BA3E solid 2px;
+    border-radius: 10px;
+}
+/* SECTION CONTACTO */
+#contacto{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../fondoSecciones/fondo_contacto.jpg");
+    background-size: cover;
+}
+.contacto__container-map{
+    width: 37rem;
+}
+.mapImage{
+    width: 500px;
+}
+.contacto__container{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contacto__container-form{
+    width: 27rem;
+}
+form{
+    max-width: 50rem;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 1.7rem;
+    max-width: 30rem;
+}
+input{
+    font-size: 1.7rem;
+    color: black;
+    max-height: 2rem;
+    max-width: 30rem;
+    margin-bottom: 1rem;
+}
+textarea{
+    color: black;
+    font-size: 1.5rem;
+    max-height: 10rem;
+    max-width: 30rem;
+    margin-bottom: 1rem;
+}
+button{
+    color: black;
+    width: 5rem;
+    text-align: center;
+}
+/* FOOTER */
+
+
+
+/* e */
